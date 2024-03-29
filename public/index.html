@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file -->
+</head>
+<body>
+    <div class="container">
+        <div class="egg-container">
+            <img src="egg.png" alt="Egg" id="egg" onclick="clickEgg()">
+            <p id="clickCount">0</p> <!-- Display initial click count -->
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <span class="progress-label" id="progressLabel">0/1,000,000</span>
+        </div>
+    </div>
+</body>
+</html>

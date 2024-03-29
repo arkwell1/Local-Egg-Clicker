@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc; /* Set background color to gray */
+}
+
+.container {
+    text-align: center;
+}
+
+.egg-container {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 60px; /* Add more margin to create space between egg and count */
+    -webkit-touch-callout: none; /* Disable touch callout on iOS */
+    -webkit-user-select: none; /* Disable user selection on iOS */
+    -moz-user-select: none; /* Disable user selection on Firefox */
+    -ms-user-select: none; /* Disable user selection on Microsoft Edge */
+    user-select: none; /* Disable user selection */
+}
+
+#egg {
+    width: 250px; /* Adjust the width of the egg image */
+}
+
+.progress-container {
+    width: 300px; /* Set width of the progress container */
+    height: 30px; /* Set height of the progress container */
+    background-color: #ddd; /* Set background color of the progress container */
+    border-radius: 15px; /* Add rounded corners */
+    position: relative; /* Ensure child elements position correctly */
+}
+
+.progress-bar {
+    width: 0%; /* Set initial width of the progress bar */
+    height: 100%; /* Set height of the progress bar */
+    background-color: #4caf50; /* Set color of the progress bar */
+    border-radius: 15px; /* Add rounded corners */
+    transition: width 0.5s; /* Add transition for smooth width changes */
+}
+
+.progress-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #555;
+}
