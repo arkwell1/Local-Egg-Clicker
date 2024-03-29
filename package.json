@@ -1,0 +1,15 @@
+{
+  "name": "localeggclicker",
+  "version": "1.0.0",
+  "description": "Local Egg Clicker is a simple yet addictive game where players click on eggs to collect them. With each click, you'll collect eggs and unlock new egg types, each with its unique appearance. Gather your family and friends and see how many eggs you can collect together!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Arkwell",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^9.8.1",
+    "socket.io": "^9.8.1"
+  }
+}
