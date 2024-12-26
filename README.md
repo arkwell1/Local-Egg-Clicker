@@ -22,7 +22,7 @@ Local Egg Clicker is a simple yet addictive game where players click on eggs to 
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using `npm install`.
 
-3. **Run the Server**: Start the server locally using `node start`. Access the game at `http://localhost:3000` in your web browser.
+3. **Run the Server**: Start the server locally using `node server.js`. Access the game at `http://localhost:3000` in your web browser.
 
 4. **Gather Your Family and Friends**: Bring your loved ones together and invite them to join the egg-clicking fun!
 
